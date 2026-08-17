@@ -3,10 +3,34 @@
 const myArr = [0, 32, 3, 4, 5, ]
 const myHeros = ["lapuu", "jhapii", "pappu", "tattu"]
 const myArray2 = new Array(1, 2, 3, 5)
-console.log(myArray2);
+//console.log(myArray2);
 
 // Array Method
 
-myArr.push(6)
-//console.log(myArr);
+//myArr.push(6)
+//myArr.push(3)
+//myArr.pop()
 
+//myArr.unshift(0)
+// myArr.shift()
+
+// console.log(myArr.includes(6));
+// console.log(myArr.indexOf(3));
+// console.log(myArr.fill(5));
+
+const newArr = myArr.join()
+// console.log(typeof newArr);
+// console.log(myArr);
+
+
+//slice, splice
+
+console.log("A", myArr);
+
+const myn1 = myArr.slice(1, 3)
+console.log(myn1);
+console.log("B", myArr);
+
+const myn2 = myArr.splice(1, 3)
+console.log("C", myArr);
+console.log(myn2);
