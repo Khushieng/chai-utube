@@ -23,12 +23,34 @@ function addTwoNumber(number1, number2){
 // console.log("Result: ", result);
 
 
-function loginUser(name){
-    if(name == undefined){
-        console.log("please enter name");
+function loginUsername (Username){
+    if(Username == undefined){
+        console.log("please enter username");
         return
     }
-    return `${name} just logged in`
+    return `${Username} just logged in`
+}
+// console.log(loginUsername())
+
+
+function calculatorCartPrice(...num1){
+    return num1
+}
+// console.log(calculatorCartPrice(23, 450, 567));
+
+const user = {
+    name: "serum",
+   price: 354,
 }
 
-console.log(loginUser("sonu"))
+function handleObject(anyobject){
+    console.log(`Product is ${anyobject.name} and price is ${anyobject.price}`);
+}
+// handleObject(user)
+
+const myNewArray = [200,300,4000]
+function returnanyvalue(getarray){
+    return getarray[1]
+}
+console.log(returnanyvalue(myNewArray));
+
