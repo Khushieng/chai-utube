@@ -15,11 +15,23 @@ for( const greeting of greet){
 
 //Maps
 
+// const map = new Map()
+// map.set('in', "india")
+// map.set('fr', "france ")
+
+//console.log(map);
+
+for (const [key, value] of map){
+    // console.log (key, '++', value);
+}
+
+
+//Maps
+
 const map = new Map()
 map.set('in', "india")
-    map.set('fr', "france ")
-    console.log(map);
+map.set('fr', "france ")
 
-for (const key of map){
-    console.log 
+for(const key in map) {
+    console.log(key);
 }
